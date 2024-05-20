@@ -1,0 +1,21 @@
+{
+  "name": "test-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/testdb_conn.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/testdb_conn.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
